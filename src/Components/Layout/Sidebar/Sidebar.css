@@ -1,0 +1,24 @@
+.sidebar-container {
+    flex: 0 0 80px;
+    height: 100%;
+    background-color: #0000009e;
+}
+
+.sidebar-item-container {
+    height: 92px;
+    padding: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    user-select: none;
+}
+
+.sidebar-item-container img {
+    pointer-events: none;
+}
+
+.sidebar-item-container.selected {
+    background-color: blue;
+    color: white;
+}
