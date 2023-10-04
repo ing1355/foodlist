@@ -1,6 +1,7 @@
 import { createContext, useMemo, useState } from "react";
 
 export const SidebarContext = createContext({
+    selectedSidebar: null,
     setSelectedSidebar: () => { }
 });
 

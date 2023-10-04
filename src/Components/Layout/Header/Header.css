@@ -1,7 +1,9 @@
 .header-container {
     flex: 0 0 60px;
-    background-color: red;
+    color: rgba(255,255,255,.8);
+    background-image: radial-gradient(50% 176%, #253854 80%, #061922 100%);
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1.2rem;
 }

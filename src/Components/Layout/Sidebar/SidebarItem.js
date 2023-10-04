@@ -9,7 +9,8 @@ const SidedbarItem = ({title, icon, value}) => {
     }}>
         <img src={icon} style={{
             height: 'calc(100% - 16px)',
-            objectFit: 'contain'
+            objectFit: 'contain',
+            paddingBottom: '8px'
         }}/>
         <div style={{
             height: '16px'
